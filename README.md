@@ -3,10 +3,11 @@
 <!-- 完成 :tada: -->
 <!-- 勾勾 :white_check_mark: -->
 <!-- 叉叉 :x:-->
-<details> <summary><h2><b>:tada: Introductory Problems</b></h2></summary>
+
+<details> <summary><h2><b>Introductory Problems</b></h2></summary>
 
 | Problem | Result |
-| :-: | :-: | :-: | :-: |
+| :-: | :-: |
 | [Bit Strings.cpp](https://github.com/kerong2002/CSES/blob/main/Introductory%20Problems/Bit%20Strings.cpp)               |:white_check_mark:|
 | [Coin Piles.cpp](https://github.com/kerong2002/CSES/blob/main/Introductory%20Problems/Coin%20Piles.cpp)                 |:white_check_mark:|
 | [Creating Strings.cpp](https://github.com/kerong2002/CSES/blob/main/Introductory%20Problems/Creating%20Strings.cpp)     |:white_check_mark:|
