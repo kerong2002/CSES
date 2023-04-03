@@ -1,10 +1,10 @@
 # CSES
 ## Programer：KeRong &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finish：12 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Update：2023/03/31
-
+<!--:tada:-->
 <details> <summary><h2><b>:tada: Introductory Problems</b></h2></summary>
 
 | Problem | Code Time | Code Size | Result |
-| --- | --- | --- | --- |
+| :-: | :-: | :-: | :-: |
 | [Bit Strings.cpp](https://github.com/kerong2002/CSES/blob/main/Introductory%20Problems/Bit%20Strings.cpp) |  |  |  |
 | [Coin Piles.cpp](https://github.com/kerong2002/CSES/blob/main/Introductory%20Problems/Coin%20Piles.cpp) |  |  |  |
 | [Creating Strings.cpp](https://github.com/kerong2002/CSES/blob/main/Introductory%20Problems/Creating%20Strings.cpp) |  |  |  |
