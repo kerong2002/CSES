@@ -1,7 +1,7 @@
 # CSES
 ## Programer：KeRong &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finish：12 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Update：2023/03/31
 
-<details> <summary><h2><b>Introductory Problems</b></h2></summary>
+<details> <summary><h2><b>:tada: Introductory Problems</b></h2></summary>
 
 | Problem | Code Time | Code Size | Result |
 | --- | --- | --- | --- |
