@@ -14,8 +14,7 @@ int main() {
 	vector<pair<int, int>> movie;
 	for (int x = 0; x < n; ++x) {
 		cin >> start >> end;
-		movie.push_back({start, 1});
-		movie.push_back({end, -1});
+		movie.push_back({end, start});
 	}
 
 	sort(movie.begin(), movie.end());
@@ -23,17 +22,10 @@ int main() {
 	int ans = 0;
 	int accumulate = 0;
 
-	for (size_t x = 0; x < movie.size(); ++x) {
-
-        if (movie[x].second == 1 && accumulate == 0){
-            accumulate = 1;
-        }
-		else {
-            accumulate = 0;
-		}
-
-		if (accumulate == 1 && movie[x].second == 1) {
-            ans += 1;
+	for (int x = 0; x < movie.size(); ++x) {
+		if (movie[x].second >= accumulate) {
+			ans += 1;
+			accumulate  = movie[x].first;
 		}
 	}
 

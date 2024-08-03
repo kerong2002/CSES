@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <unordered_map>
+#include <map>
 
 using namespace std;
 
@@ -10,38 +10,20 @@ int main() {
     int n = 0;
     int sum = 0;
     cin >> n >> sum;
-    vector<int> pos(n, 0);
-    unordered_map<int, int> hashTable;
+    vector<int> val(n, 0);
+    map<int, int> mp;
     for (int x = 0; x < n; ++x) {
-        cin >> pos[x];
-        hashTable[pos[x]] = x + 1;
+        cin >> val[x];
     }
 
-    sort(pos.begin(), pos.end());
-
-    int L = 0;
-    int R = n - 1;
-    bool ans = false;
-
-    while (L < R) {
-        if (pos[L] + pos[R] < sum) {
-            ++L;
+    for (int x = 0; x < n; ++x) {
+        if (mp.count(sum - val[x])) {
+            cout << x + 1 << " " << mp[sum - val[x]] << endl;
+            return 0;
         }
-        else if (pos[L] + pos[R] > sum) {
-            --R;
-        }
-        else {
-            ans = true;
-            break;
-        }
+        mp[val[x]] = x + 1;
     }
-
-    if (ans) {
-        cout << hashTable[pos[L]] << " " << hashTable[pos[R]] << endl;
-    }
-    else {
-        cout << "IMPOSSIBLE" << endl;
-    }
+    cout << "IMPOSSIBLE" << endl;
 
     return 0;
 }
